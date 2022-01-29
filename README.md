@@ -12,7 +12,7 @@ The project is fully open source, you can do anything what you want with it, alt
 
 The commandline for the arduino can be found in the arduino directory.
 
-P.S. The software is still under heavy developement, and I had zero idea about python until this project, so forgive me for any mistakes I have made.
+P.S. The software is still under heavy developement.
 
 ## PC setup
 
