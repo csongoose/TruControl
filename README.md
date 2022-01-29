@@ -1,5 +1,5 @@
 # TruControl
-an external arduino dashboard project for ETS2
+An external arduino dashboard project for ETS2
 
 ***Version 1.1***
 
@@ -28,6 +28,7 @@ Currently 3 pins are used:
 
 ### Version 1.0
 -Original version
+
 -Only blinkers are integrated
 
 ### Version 1.1
