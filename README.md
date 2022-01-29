@@ -12,6 +12,12 @@ The commandline for the arduino can be found in the arduino directory.
 
 P.S. The software is still under heavy developement, and I had zero idea about python until this project, so forgive me for any mistakes I have made.
 
+## Arduino setup
+
+Currently 2 pins are used:
+-Left blinker is pin number ***12***
+-Right blinker is pin number ***13***
+
 ## Known issues
 
 -Periodic lag occurs randomly when reading the telemetry (Still working on what causes it)
