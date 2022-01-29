@@ -18,7 +18,7 @@ P.S. The software is still under heavy developement, and I had zero idea about p
 
 -First, install Funbit's telemetry server and start it up
 
--If you simply want to run the software without modifying it, download Trucontrol-exec
+-If you simply want to run the software without modifying it, download Trucontrolexec folder
 
 -Set config.yml according to your telemetry server and arduino port
 
