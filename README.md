@@ -15,7 +15,9 @@ P.S. The software is still under heavy developement, and I had zero idea about p
 ## Arduino setup
 
 Currently 2 pins are used:
+
 -Left blinker is pin number ***12***
+
 -Right blinker is pin number ***13***
 
 ## Known issues
