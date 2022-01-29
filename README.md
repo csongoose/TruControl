@@ -1,6 +1,8 @@
 # TruControl
 an external arduino dashboard project for ETS2
 
+***Version 1.1***
+
 
 You will need Funbit's telemetry server for this. https://github.com/Funbit/ets2-telemetry-server
 
@@ -14,11 +16,22 @@ P.S. The software is still under heavy developement, and I had zero idea about p
 
 ## Arduino setup
 
-Currently 2 pins are used:
+Currently 3 pins are used:
 
 -Left blinker is pin number ***12***
 
 -Right blinker is pin number ***13***
+
+-High beams is pin number ***11***
+
+## Changelog
+
+### Version 1.0
+-Original version
+-Only blinkers are integrated
+
+### Version 1.1
+-Added new high beams output
 
 ## Known issues
 
