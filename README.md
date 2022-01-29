@@ -14,7 +14,21 @@ The commandline for the arduino can be found in the arduino directory.
 
 P.S. The software is still under heavy developement, and I had zero idea about python until this project, so forgive me for any mistakes I have made.
 
+## PC setup
+
+-First, install Funbit's telemetry server and start it up
+
+-If you simply want to run the software without modifying it, download Trucontrol-exec
+
+-Set config.yml according to your telemetry server and arduino port
+
+-Start up TruControl.exe and the game
+
+-Enjoy!
+
 ## Arduino setup
+
+-Simply upload the .ino file to your arduino. (tested on Leonardo and UNO)
 
 Currently 3 pins are used:
 
@@ -34,6 +48,7 @@ Currently 3 pins are used:
 ### Version 1.1
 -Added new high beams output
 
-## Known issues
+-Added executable file
 
+## Known issues
 -Periodic lag occurs randomly when reading the telemetry (Still working on what causes it)
