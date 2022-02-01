@@ -1,7 +1,7 @@
 # TruControl
 An external arduino dashboard project for ETS2
 
-***Version 0.1.2***
+***Version 0.1.3***
 
 
 You will need Funbit's telemetry server for this. https://github.com/Funbit/ets2-telemetry-server
