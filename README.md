@@ -1,7 +1,7 @@
 # TruControl
 An external arduino dashboard project for ETS2
 
-***Version 0.1.1***
+***Version 0.1.2***
 
 
 You will need Funbit's telemetry server for this. https://github.com/Funbit/ets2-telemetry-server
@@ -16,39 +16,57 @@ P.S. The software is still under heavy developement.
 
 ## PC setup
 
--First, install Funbit's telemetry server and start it up
+* First, install Funbit's telemetry server and start it up
 
--If you simply want to run the software without modifying it, download Trucontrolexec folder
+* If you simply want to run the software without modifying it, download Trucontrolexec folder
 
--Set config.yml according to your telemetry server and arduino port
+* Set config.yml according to your telemetry server and arduino port
 
--Start up TruControl.exe and the game
+* Start up TruControl_x.x.x.exe and the game
 
--Enjoy!
+* Enjoy!
 
 ## Arduino setup
 
--Simply upload the .ino file to your arduino. (tested on Leonardo and UNO)
+* Simply upload the .ino file to your arduino. (tested on Leonardo and UNO)
 
-Currently 3 pins are used:
-
--Left blinker is pin number ***12***
-
--Right blinker is pin number ***13***
-
--High beams is pin number ***11***
+* Current pinout: (can be changed in the arduino file's define block)
+  * **13:** Right blinker
+  * **12:** Left blinker
+  * **11:** High beams
+  * **10:** Low beams
+  * **9:** Parking lights
+  * **8:** Air pressure warning light
+  * **7:** Battery warning light
+  * **6:** Parking brake
+  * **5:** Fuel warning light
+  * **4:** Retarder indicator light
 
 ## Changelog
 
 ### Version 0.1.0
--Original version
+* Original version
 
--Only blinkers are integrated
+* Only blinkers are integrated
 
 ### Version 0.1.1
--Added new high beams output
+* Added new high beams output
 
--Added executable file
+* Added executable file
+
+### Version 0.1.2
+* Cleaned up code
+
+* Added several more outputs:
+
+  * Parking lights
+  * Low beams
+  * Air pressure warning
+  * Battery warning
+  * Parking brake
+  * Fuel warning light
+  * Retarder light
 
 ## Known issues
--Periodic lag occurs randomly when reading the telemetry (Still working on what causes it)
+* Periodic lag occurs randomly when reading the telemetry (Still working on what causes it)
+* Handbrake light checks lever instead of the actual light (caused by how the telemetry server works, doing a workaround soon)
