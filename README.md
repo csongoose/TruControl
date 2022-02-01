@@ -74,8 +74,8 @@ The software settings can be changed within the file. Explanation is provided wi
 ### Version 0.1.3
 * Reformatted code
 * Added support for automatic retarder (can be changed in config.yml)
-* Added support for dashboard indicator lights to work parallelly with the truck ignition (handbrake, retarder, air pressure warning etc.)
-* Added support for external lights to work independently of the truck ignition
+* Added support for dashboard indicator lights to work with or independently of the truck ignition (handbrake, retarder, air pressure warning etc.)
+* Added support for external lights to work with or independently of the truck ignition
 
 ## Known issues
 * Periodic lag occurs randomly when reading the telemetry (Still working on what causes it)
