@@ -1,7 +1,7 @@
 CONFIGURATION:
   urlfortelemetry: http://192.168.1.100:25555/api/ets2/telemetry  # the telemetry server's access url
   arduinoport: COM3                                               # the arduino board's port (check arduino IDE)
-  debugmode: True                                                 # return debug lines (True/False)
+  debugmode: False                                                # return debug lines (True/False) (False by default)
 
 VEHICLE:
   autoretarder: True                                              # set to True if the automatic retarder is enabled in-game (True/False) (True by default)
