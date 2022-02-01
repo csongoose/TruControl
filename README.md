@@ -42,6 +42,10 @@ P.S. The software is still under heavy developement.
   * **5:** Fuel warning light
   * **4:** Retarder indicator light
 
+## Config.yml
+
+The software settings can be changed within the file. Explanation is provided with every line.
+
 ## Changelog
 
 ### Version 0.1.0
@@ -67,6 +71,12 @@ P.S. The software is still under heavy developement.
   * Fuel warning light
   * Retarder light
 
+### Version 0.1.3
+* Reformatted code
+* Added support for automatic retarder (can be changed in config.yml)
+* Added support for dashboard indicator lights to work parallelly with the truck ignition (handbrake, retarder, air pressure warning etc.)
+* Added support for external lights to work independently of the truck ignition
+
 ## Known issues
 * Periodic lag occurs randomly when reading the telemetry (Still working on what causes it)
-* Handbrake light checks lever instead of the actual light (caused by how the telemetry server works, doing a workaround soon)
+* When starting up the software, you have to start with a truck which has everything switched off, to avoid issues
