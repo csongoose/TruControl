@@ -3,6 +3,8 @@ An external arduino dashboard project for ETS2 and ATS
 
 ***Version 0.1.3***
 
+**Important note:** u/ItsBail on reddit gave me the idea to test with ATS as well. As it turns out, it works perfectly! You can use it with ATS the same way as ETS!
+
 
 You will need Funbit's telemetry server for this. https://github.com/Funbit/ets2-telemetry-server
 
