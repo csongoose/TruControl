@@ -1,5 +1,5 @@
 # TruControl
-An external arduino dashboard project for ETS2
+An external arduino dashboard project for ETS2 and ATS
 
 ***Version 0.1.3***
 
