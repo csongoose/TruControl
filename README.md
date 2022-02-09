@@ -33,8 +33,8 @@ P.S. The software is still under heavy developement.
 * Simply upload the .ino file to your arduino. (tested on Leonardo and UNO)
 
 * Current pinout: (can be changed in the arduino file's define block)
-  * **13:** Right blinker
-  * **12:** Left blinker
+  * **13:** Left blinker
+  * **12:** Right blinker
   * **11:** High beams
   * **10:** Low beams
   * **9:** Parking lights
@@ -79,6 +79,16 @@ The software settings can be changed within the file. Explanation is provided wi
 * Added support for dashboard indicator lights to work with or independently of the truck ignition (handbrake, retarder, air pressure warning etc.)
 * Added support for external lights to work with or independently of the truck ignition
 
+### Latest update (still version 0.1.3)
+* Changed up left and right blinkers, for a nicer layout
+* Added wiring for easier execution
+
 ## Known issues
 * Periodic lag occurs randomly when reading the telemetry (Still working on what causes it)
 * When starting up the software, you have to start with a truck which has everything switched off, to avoid issues
+
+## Wiring
+![wiring](https://github.com/csongoose/TruControl/blob/master/trucontrol_bb.png)
+
+Note: You only need the resistors, if you use the arduino with 5v output. With 3v3, you should be fine without them.
+
