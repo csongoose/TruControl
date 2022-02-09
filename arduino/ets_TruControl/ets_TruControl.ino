@@ -1,8 +1,8 @@
 //pin number declaration. Change this, if you want!
 #define srl1 0                //not used yet
 #define srl2 1                //not used yet
-#define blinkerRight 13       //pin for left blinker
-#define blinkerLeft 12        //pin for right blinker
+#define blinkerRight 12       //pin for left blinker
+#define blinkerLeft 13        //pin for right blinker
 #define highBeams 11          //pin for high beams
 #define lowBeams 10           //pin for low beams
 #define parkingLights 9       //pin for parking lights
